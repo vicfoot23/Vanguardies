@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vanguardia Rusa</title>
+	<style type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		.roig{
+			width: 140px;
+			height: 140px;
+			border-radius: 140px;
+			background: #BB2E2C;
+			border: 6px solid #802B44;
+			position: absolute;
+			top: 10%;
+			right: 7%;
+			z-index: 4;
+			animation: escala 2s 2;
+		}
+		.groc{
+			width: 270px;
+			height: 270px;
+			border-radius: 270px;
+			background: #CDC04E;
+			position: absolute;
+			right: 4.5%;
+			top: 23%;
+			z-index: 2;
+		}
+		.negre{
+			width: 450px;
+			height: 450px;
+			border-radius: 500px;
+			background: #181A1B;
+			position: absolute;
+			right: 12%;
+			top: 30%;
+			z-index: 1;
+			animation: color 6s 3;
+		}
+		.roig2{
+			width: 310px;
+			height: 310px;
+			border-radius: 310px;
+			border: 6px solid #BB2E2C;
+			position: absolute;
+			right: 4%;
+			top: 35%;
+			z-index: 3;
+			animation: mou 5s 3;
+		}
+		.blau{
+			width: 500px;
+			height: 500px;
+			border-radius: 500px;
+			border: 6px solid #6483AD;
+			position: absolute;
+			right: 4%;
+			top: 40%;
+			z-index: 5;
+			animation: transicio 4s 2;
+		}
+		.blau:hover{
+			animation-play-state: paused;
+			display: none;
+		}
+		.roig3{
+			width: 230px;
+			height: 230px;
+			border-radius: 230px;
+			background: #932924;
+			position: absolute;
+			border: 6px solid #CDCABC;
+			right: 27%;
+			top: 69%;
+			z-index: 5;
+		}
+		h1{
+			font-family: 'Source Sans Pro', sans-serif;
+			margin-left: 10px;
+			background: white;
+			transition: background 2s;
+			padding-left: 2%;
+		}
+		h1:hover{
+			color: white;
+			background: black;
+		}
+		h2{
+			font-family: 'Source Sans Pro', sans-serif;
+			margin-left: 10px;
+			color: white; 
+			transition: color 2s;
+			background: red;
+			padding-left: 2%;
+		}
+		h2:hover{
+			color: black;
+		}
+		@keyframes mou{
+			0%   {background-color:red; left:0%; top:0%;}
+    		25%  {background-color:pink; left:20%; top:0%;}
+    		50%  {background-color:purple; left:30%; top:30%;}
+    		75%  {background-color:green; left:0%; top:30%;}
+    		100% {background-color:black; left:0%; top:0%;} 
+		}
+		@keyframes color{
+			0% {background: black;}
+			20% {background: blue;}
+			60% {background: orange;}
+			100% {background: red;}
+		}
+		@keyframes transicio{
+			from{background: skyblue;}
+			to{background: #6483AD;}
+		}
+		@keyframes escala{
+			from{background: black;
+				transform: scale(1, 1);}
+			to{background: pink;
+				transform: scale(3, 3);}
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="roig"></div>
+	<div class="groc"></div>
+	<div class="negre"></div>
+	<div class="roig2"></div>
+	<div class="blau"></div>
+	<div class="roig3"></div>
+		<h1>Vanguardista Ruso:</h1>
+		<a href="https://arthive.com/artists/2124~Alexander_Mikhailovich_Rodchenko/works/476309~Composition"><h2>Alexander Mikhailovich Rodchenko</h2></a>
+</body>
+</html>
